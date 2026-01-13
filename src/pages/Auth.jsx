@@ -1,6 +1,6 @@
 import { useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
-import api from "../api/api";
+import api from "../api/api.js"
 import { AuthContext } from "../context/AuthContext.jsx";
 import { User, Mail, Lock, CheckSquare } from "lucide-react";
 import toast from 'react-hot-toast';
